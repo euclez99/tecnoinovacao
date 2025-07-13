@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Quicksand", serif;;
+}
+
+nav{
+    background-color: #333333;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 70%;
+    width: 50px;
+}
+.menu{
+    flex: 30%;
+}
+.menu li{
+    display: inline-block;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    background-color: #585757;
+    border-radius: 12px;
+}
+
+.menu li a:hover{
+
+    background-color: #949494;
+    transform: scale(1.89);
+
+}
+
+.logo img{
+    margin-left: 200px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+main h1{
+    padding-bottom: 20px;
+    font-size: 80px;
+    font-family: "Kaushan Script", serif;
+}
+
+main p{
+    text-align: justify;
+    font-size: 21px;
+}
+main .golo{
+    margin: 12px;
+}
+main .servicos{
+    padding: 80px;
+    text-align: center;
+    width: 50%;
+}
+.outro{
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    background-color: #333333;
+
+
+}
+.solo{
+    width: 50%;
+    height: 90px;
+    padding: 40px;   
+}
+.solo p{
+    text-align: justify;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+    margin: 50px;
+}
+
+.golo{
+    padding-top: 60px;
+}
