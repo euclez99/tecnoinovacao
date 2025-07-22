@@ -1,0 +1,53 @@
+@media  only screen and (max-width: 600px) {
+
+    main{
+        .imgs{
+            display: none;
+        }
+    }
+
+    form{
+
+        width: 350px;
+
+        label{
+            font-size: 12px;
+        }
+
+        input{
+            width: 250px;
+        }
+
+            
+    select{
+        
+
+        optgroup{
+            width: 300px;
+            margin-top: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+
+        label{
+            font-size: 10px;
+        }
+        width: 150px;
+        option{
+            font-size: 8px;
+        }
+}
+        
+    }
+
+
+
+    footer{
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+    
+    
+}

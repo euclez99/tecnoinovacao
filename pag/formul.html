@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../midias/formMidia.css">
 </head>
 <body>
     <header>
@@ -19,14 +20,14 @@
 
         <div class="form">
             <form action="" method="post">
-                <label for="inome">Nome Pesssoal / Empresa</label>
+                <label for="inome">Nome Pesssoal / Empresa *</label>
                 <input type="text" name="nome" id="inome" placeholder="Digite o nome" required>
 
-                <label for="itel">Nº do Telefone</label>
+                <label for="itel">Nº do Telefone *</label>
                 <input type="text" name="tel" id="itel" placeholder="9xx xxx xxx" required maxlength="11">
 
-                <label for="itel">E-mail</label>
-                <input type="text" name="tel" id="itel" placeholder="usuario@email.com" required >
+                <label for="iemail">E-mail *</label>
+                <input type="text" name="email" id="iemail" placeholder="usuario@email.com" required >
 
                 <label for="iservicos">Serviços</label>
                 
@@ -46,7 +47,7 @@
                         <option value="DRS">Links Patrocinados</option>
                     </optgroup>
 
-                    <optgroup label="Web - Site">
+                    <optgroup label="WEB - SITE">
                         <option value="SI">Site Institucional</option>
                         <option value="LV">Loja Virtual</option>
                         <option value="EM">E-mail Marketing</option>
@@ -58,8 +59,8 @@
                 </select>
                 
                 <div class="botoes">
-                    <input id="botao" type="reset" value="Limpar">
-                    <input id="botao" type="submit" value="Submeter">
+                    <input id="botao2" type="reset" value="Limpar">
+                    <input id="botao1" type="submit" value="Submeter">
 
                 </div>            
 
