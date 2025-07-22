@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <header>
+        <h1>FORMULÁRIO</h1>
+    </header>
+    <main>
+
+        <div class="imgs">
+            <img src="../imgs/fundo/dados.jpg" alt="">
+
+        </div>
+
+        <div class="form">
+            <form action="" method="post">
+                <label for="inome">Nome Pesssoal / Empresa</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite o nome" required>
+
+                <label for="itel">Nº do Telefone</label>
+                <input type="text" name="tel" id="itel" placeholder="9xx xxx xxx" required maxlength="11">
+
+                <label for="itel">E-mail</label>
+                <input type="text" name="tel" id="itel" placeholder="usuario@email.com" required >
+
+                <label for="iservicos">Serviços</label>
+                
+                <select name="servico" id="iservicos">
+                    
+                    <optgroup label="DESIGNER">
+                        <option value="DMI">Designer de Mídia Impressa</option>
+                        <option value="DMG">Designer de Mídia Digital</option>
+                        <option value="DCP">Designer de Campanha Promocional</option>
+                        <option value="DRS">Designer de Redes Sociais</option>
+                    </optgroup>
+
+                    <optgroup label="MARKETING">
+                        <option value="DMI">Marketing de Conteúdo</option>
+                        <option value="DMG">Marketing nas Redes Sociais</option>
+                        <option value="DCP">E-mail Marketing</option>
+                        <option value="DRS">Links Patrocinados</option>
+                    </optgroup>
+
+                    <optgroup label="Web - Site">
+                        <option value="SI">Site Institucional</option>
+                        <option value="LV">Loja Virtual</option>
+                        <option value="EM">E-mail Marketing</option>
+                        <option value="SC">Site de Conteúdo</option>
+                        <option value="PO">Portfólio Online</option>
+                        <option value="SOP">Site One Page (Página Única)</option>
+                        <option value="SS">Site de Serviços</option>
+                    </optgroup>
+                </select>
+                
+                <div class="botoes">
+                    <input id="botao" type="reset" value="Limpar">
+                    <input id="botao" type="submit" value="Submeter">
+
+                </div>            
+
+            </form>
+        </div>
+
+    </main>
+    <div class="inform">
+        Obrigado, Volte Sempre!
+    </div>
+
+    <footer>
+        <a href="../index.html"><img src="../imgs/home.png" alt=""></a>
+    </footer>
+</body>
+</html>
+
+
+
+

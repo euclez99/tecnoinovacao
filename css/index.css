@@ -6,11 +6,20 @@
 }
 
 body{
+    h1{
+        font-family:"Special Gothic Expanded One", sans-serif;
+        color: #2C2C2C;
+    }
+    p{
+        font-family:  "Karla", sans-serif;
+    }
     header{
         align-items: center;
         background-color: #0085ff;
         display: flex;
         margin-bottom: 30px;
+        border-bottom: 4px solid #ff6b00;
+        box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.219);
 
         .logo{
             flex: 50%;
@@ -158,6 +167,7 @@ body{
                 }
                 
                 h1{
+                    font-family: "Funnel Sans", sans-serif;;
                     font-size: 20px;
                     letter-spacing: 5px;
                     margin-left: 10px;
@@ -173,10 +183,13 @@ body{
             }
         }
 
-        .tras{
+        .tras{ 
+            h1{
+                color: white;
+            }
             transform: rotateY(180deg);
             .titulo{
-                background-color: rgb(52, 248, 52);
+                background-color: #ff6b00;
             }
             
             li{
@@ -197,6 +210,7 @@ body{
 
             h1{
                 background-color: #0085ff;
+                color: white;
                 display: inline-block;
                 padding: 20px;
                 border-radius: 10px;
@@ -207,7 +221,7 @@ body{
             }
 
             h1:hover{
-                background-color: rgb(47, 238, 47);
+                background-color: #ff6b00;
             }
 
         }
@@ -215,26 +229,52 @@ body{
 
     @keyframes aumentar {
 
-                from,to{
-                    background-color: #0085ff;
-                    scale: 100%;
-                }
-                50%{
-                    background-color: rgb(47, 238, 47);
-                    scale: 110%;
-                }
+        from,to{
                 
-            }
-
-footer{
-    background-color: #0085ff;
-    display: flex;
-
-    .redesSociais{
-        flex: 50%;
+                    scale: 100%;
+        }
+        50%{
+            
+            scale: 110%;
+        }
+                
     }
 
-    .Contatcos{
-        flex: 50%;
+footer{
+    flex-flow: row wrap;
+    text-align: center;
+       border-top: 4px solid #0085ff;
+        display: flex;
+        background-image: url(../imgs/fundo/pedacos.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 250px;
+    h1{
+        font-family: "Oswald", sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+
+    .Contatcos, .redesSociais, .apoios{
+        padding: 10px;
+        margin: 15px;
+        flex: 30%;
+
+        div{
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 40px;
+            display: block;
+            margin: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: #2C2C2C;
+        }
     }
 }
