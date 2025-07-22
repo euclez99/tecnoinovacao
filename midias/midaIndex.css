@@ -1,12 +1,19 @@
-@media  only screen and (max-width: 600px) {
+@media  only screen and (max-width: 700px) {
 
     body{
         header{
+            margin-bottom: 0;
 
             .logo{
                 flex: 100%;
-                text-align: center;
-                margin: 10px;
+                text-align: justify;
+                margin-left: 20px;
+
+                #logoimg{
+                    width: 80px;
+                }
+
+                
             }
             nav{
                 position: fixed;
@@ -24,7 +31,14 @@
                
             }
 
+
         }
+
+         #broker{
+                    display: block;
+                }
+
+
 
         main{
             z-index: 1;
@@ -67,6 +81,10 @@
 
     }
 
+    #menu2{
+        
+    }
+
         footer{
             display: block;
             height: 750px;
@@ -77,4 +95,31 @@
 
     
     
+}
+
+
+@media  only screen and (max-width: 900px) {
+
+
+            main{
+            
+            .principal{
+                display: block;
+
+                .imgPrincip{
+                
+                    img{
+                        width: 250px;
+                    }
+            }
+        }
+    }
+
+            footer{
+            display: block;
+            height: 750px;
+
+            margin-bottom: 100px;
+        
+        }
 }

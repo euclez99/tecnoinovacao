@@ -1,18 +1,12 @@
-let designer = document.getElementById("designer1")
-let designer1 = document.querySelector(".designer0")
 
-function moveu1(){
+function clicou(){
+    let menu2 = document.getElementById("menu2")
+    menu2.style.display = "block"
     
-    designer.style.display="block"
-    designer1.style.opacity=0
-    designer.style.transition="opacity 1s"
-
 }
 
-function tirou1(){
-    designer.style.display="none"
-    designer1.style.opacity= 1
-    designer.style.transition="opacity 1s"
-
-
+function vazou(){
+    let menu2 = document.getElementById("menu2")
+    menu2.style.display = "none"
+    
 }
