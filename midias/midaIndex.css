@@ -107,6 +107,7 @@
                 display: block;
 
                 .imgPrincip{
+                    background-image: url(../designer/logo22.png);
                 
                     img{
                         width: 250px;
