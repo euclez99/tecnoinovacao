@@ -38,10 +38,11 @@ body{
                 transition: transform .7s;
                 flex: 50%;
                 margin-right: 50px;
+                border-radius: 50%;
             }
             
                 img{
-                    width: 40px;
+                    width: 35px;
                     
                 }
 
