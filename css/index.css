@@ -98,11 +98,9 @@ body{
         display: none;
         text-align: center;
         margin-right: 40px;
-        button{
-            background-color: #0085ff;
-            border: none;
-            color: white;
-        }
+        background-color: #0085ff;
+        border: none;
+        color: white;
         img{
             width: 40px;
         }
