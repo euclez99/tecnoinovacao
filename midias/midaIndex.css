@@ -16,12 +16,14 @@
                 
             }
             nav{
+                box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.315);
                 position: fixed;
                 background-color: #0085ff;
                 bottom: 0;
                 width: 100%;
                 flex: 100%;
                 z-index: 2;
+                height: 90px;
                 justify-content: center;
 
                 div{
