@@ -6,8 +6,13 @@
         }
     }
 
-    form{
+    header{
+        margin-bottom: 40px;
+    }
 
+    form{
+        background-color:#0084ff27;
+;
         width: 350px;
 
         label{
